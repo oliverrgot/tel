@@ -1,0 +1,50 @@
+body{
+    background-image:url(hatter.jpg)
+}
+
+main{
+    background-color: white;
+    max-width: 80%;
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-areas: "h h h"
+                         "n ar as"
+                         "f f f"
+}
+
+
+.header{
+    grid-area: h;
+    background-image:url(fejlec.jpg)
+}
+
+.nav{
+    grid-area: n;
+    background-color: white;
+
+}
+
+.article{
+    grid-area: ar;
+    background-color: white
+
+}
+
+.aside{
+    grid-area: as;
+    background-color: white;
+
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    text-align:
+}
+
+
+
